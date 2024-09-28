@@ -19,7 +19,7 @@ struct TriggerBot {
         int weaponId = lp->weaponIndex;
         //printf("Last weapon held: [%s] - id: [%d]- GrenadeID: [%d] - Ammo: [%d]\n", WeaponName(weaponId).c_str(), weaponId, lp->grenadeID, lp->ammoInClip);        
         if (
-            weaponId != WEAPON_KRABER &&
+            weaponId != WEAPON_R301 &&
             weaponId != WEAPON_P2020 &&
             weaponId != WEAPON_MOZAMBIQUE &&
             weaponId != WEAPON_EVA8 &&
